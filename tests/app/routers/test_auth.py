@@ -4,7 +4,6 @@ from models import User
 from tests.conftest import (
     _KNOWN_MOCK_USER,
     _KNOWN_MOCK_HASHED_PASSWORD,
-
 )
 
 
