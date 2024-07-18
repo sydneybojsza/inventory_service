@@ -76,6 +76,6 @@ This is a simple inventory management service written in Python using FastAPI.
 A simple CICD pipeline which builds the app, runs a linter and runs unit tests has been created in `.github/python-app.yml`
 
 To run the tests locally:
-    ```bash
+    ```
     python setup.py test
     ```
