@@ -1,10 +1,11 @@
 from unittest.mock import patch, ANY, Mock
 from models import User
 
+from tests.conftest import (
+    _KNOWN_MOCK_USER,
+    _KNOWN_MOCK_HASHED_PASSWORD,
 
-_KNOWN_MOCK_USER: str = "mockuser"
-_KNOWN_MOCK_PASSWORD: str = "mockpassword"
-_KNOWN_MOCK_HASHED_PASSWORD: str = f"fakehashed{_KNOWN_MOCK_PASSWORD}"
+)
 
 
 @patch("routers.auth.authenticate_user")
