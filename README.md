@@ -17,6 +17,8 @@ This is a simple inventory management service written in Python using FastAPI.
 - SQLite (default, can change to another DB if needed)
 
 ### Installation
+Prerequisite: Install Python 3.10
+
 1. Clone the repository:
     ```
     git clone https://github.com/sydneybojsza/inventory_service.git
