@@ -51,12 +51,6 @@ This is a simple inventory management service written in Python using FastAPI.
 
 7. The service will be available at `http://127.0.0.1:8000`.
 
-
-8. Run the tests:
-    ```bash
-    python setup.py test
-    ```
-
 ## Usage
 
 - Use an API client like Postman or cURL to interact with the endpoints.
@@ -77,3 +71,11 @@ This is a simple inventory management service written in Python using FastAPI.
 - `POST /inventory/add_items/`: Add multiple items to the inventory.
 - `GET /inventory/`: Fetch the user's inventory.
 - `POST /inventory/subtract_item/`: Subtract an item from the inventory.
+
+## Running Tests
+A simple CICD pipeline which builds the app, runs a linter and runs unit tests has been created in `.github/python-app.yml`
+
+To run the tests locally:
+    ```bash
+    python setup.py test
+    ```
