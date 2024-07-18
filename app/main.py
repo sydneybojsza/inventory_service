@@ -14,7 +14,8 @@ app = FastAPI()
 app.include_router(inventory.router)
 app.include_router(auth.router)
 
+
 # Redirect / requests to Swagger Docs
 @app.get("/", tags=["default"])
 async def docs():
-    return RedirectResponse(url='/docs')
+    return RedirectResponse(url="/docs")
